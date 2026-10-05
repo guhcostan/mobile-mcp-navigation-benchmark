@@ -1,0 +1,34 @@
+# JavaScript dependencies and npm artifacts
+node_modules/
+*.tgz
+package/
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# CLEF model weights and local virtual environments
+models/
+model/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# Benchmark outputs may include device accessibility information
+benchmark-results/*
+!benchmark-results/summary.md
+*.raw.jsonl
+*.screenshot.*
+
+# Editor and OS files
+.DS_Store
+.vscode/
+.idea/
